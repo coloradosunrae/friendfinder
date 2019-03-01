@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Questions</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="/">
+            <button class="btn btn-lg btn-default">
+                <span class="fa fa-home"></span>
+            </button>
+        </a>
+
+        <div class="container">
+            <h1>Survey Questions</h1>
+            <hr>
+            <h2>About You</h2>
+
+            <h3>Name (Required)</h3>
+            <input type="text" id="name" class="form-control" required="">
+            <h3>Link to Photo Image (Required)</h3>
+            <input type="text" id="url" class="form-control" required="">
+
+            <hr>
+
+            <h4><strong>Question 1</strong></h4>
+            <h4>Trump is a good president.</h4>
+            <select id="q1" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 2</strong></h4>
+            <h4>Learning to code is a waste of time.</h4>
+            <select id="q2" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 3</strong></h4>
+            <h4>I would rather sit at home that go to a concert.</h4>
+            <select id="q3" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 4</strong></h4>
+            <h4>Cats are better than dogs.</h4>
+            <select id="q4" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 5</strong></h4>
+            <h4>Playing music on public transportation is the best way to listen.</h4>
+            <select id="q5" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 6</strong></h4>
+            <h4>Clapping after landing is a good way to show the pilot your thanks.</h4>
+            <select id="q6" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 7</strong></h4>
+            <h4>I like to leave my roommates a drop of milk in the container for when they are thirsty.</h4>
+            <select id="q7" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 8</strong></h4>
+            <h4>Flossing at your office desk is an easy way keep up with teeth hygiene.</h4>
+            <select id="q8" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 9</strong></h4>
+            <h4>I like showing off by ordering food for my date .</h4>
+            <select id="q9" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h4><strong>Question 10</strong></h4>
+            <h4> I probably am the culprit who left an empty toliet paper roll.</h4>
+            <select id="q10" class="form-control form-control-sm">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <br>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                    aria-hidden="true"></i>
+                Submit</button>
+
+        </div>
+
+        <hr>
+
+
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Table Link</a> |
+                    <a href="/api/waitlist">API Wait List</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="results-modal" class="modal fade" role="dialog" style="display: none;">
+        <div class="modal-dialog">
+    
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+
+              <h2 class="modal-title"><strong>Best Match</strong></h2>
+            </div>
+            <div class="modal-body">
+              <h2 id="match-name">Dustin Hoffman</h2>
+              <img id="match-img" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.9Obd8NZdDvmMJcSpKpadPQHaE9%26pid%3D15.1&f=1" alt="Dusitn Hoffman">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+
+</body>
+
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+
+        var userData = {
+            name: $("#name").val(),
+            url: $("#url").val(),
+            scores: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ]
+        };
+
+        console.log(userData);
+
+        $.post("/api/friends", userData, function(data) {
+
+       $("#match-name").text(data.matchName);
+$("match-img").attr("src", data.matchImage);
+
+$("#results-modal").modal("toggle");
+
+      });
+
+
+
+    });
+</script>
